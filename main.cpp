@@ -3,7 +3,9 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-	cout << "Hola mundo" << endl;
+	cout << "Introduce tu nombre: " << endl;
+	cin >> nombre;
+	cout << "Hola " << nombre << endl; 
 	return 0;
 }
 
